@@ -1,0 +1,21 @@
+{
+    "name": "solidy-theme",
+    "displayName": "solidy theme",
+    "description": "this is a simple theme for vs code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "solidy",
+                "uiTheme": "vs-dark",
+                "path": "./themes/haobt-color-theme.json"
+            }
+        ]
+    }
+}
